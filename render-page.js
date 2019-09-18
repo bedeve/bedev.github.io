@@ -76329,6 +76329,339 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "../packages/linux/cheatsheets/markdown.mdx":
+/*!**************************************************!*\
+  !*** ../packages/linux/cheatsheets/markdown.mdx ***!
+  \**************************************************/
+/*! exports provided: _frontmatter, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_frontmatter", function() { return _frontmatter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mdx-js/react */ "../node_modules/@mdx-js/react/dist/index.es.js");
+/* harmony import */ var _home_vasilis_BeDeve_fullstack_development_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/gatsby-theme-docz/src/base/Layout.js */ "../node_modules/gatsby-theme-docz/src/base/Layout.js");
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+/* @jsx mdx */
+
+
+/* @jsx mdx */
+
+
+const _frontmatter = {};
+
+if (typeof _frontmatter !== 'undefined' && _frontmatter && _frontmatter === Object(_frontmatter) && Object.isExtensible(_frontmatter)) {
+  Object.defineProperty(_frontmatter, '__filemeta', {
+    configurable: true,
+    value: {
+      name: "_frontmatter",
+      filename: "packages/linux/cheatsheets/markdown.mdx"
+    }
+  });
+}
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("div", props);
+};
+
+const layoutProps = {
+  _frontmatter
+};
+const MDXLayout = _home_vasilis_BeDeve_fullstack_development_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__["default"];
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", {
+    lang: "no-highlight"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", null, "```javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` ``` No language indicated, so no syntax highlighting. But let's throw in a <b>tag</b>. ```")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-javascript"
+  }), `var s = "JavaScript syntax highlighting";
+alert(s);
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-python"
+  }), `s = "Python syntax highlighting"
+print s
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {}), `No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+But let's throw in a <b>tag</b>.
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "tables"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "tables"
+  }, `Tables`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Tables aren't part of the core Markdown spec, but they are part of GFM and `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `Markdown Here`), ` supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-no-highlight"
+  }), `Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | \`renders\` | **nicely**
+1 | 2 | 3
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Colons can be used to align columns.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("table", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("thead", {
+    parentName: "table"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "thead"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `Tables`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": "center"
+  }), `Are`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": "right"
+  }), `Cool`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tbody", {
+    parentName: "table"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "tbody"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `col 3 is`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "center"
+  }), `right-aligned`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "right"
+  }), `$1600`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "tbody"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `col 2 is`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "center"
+  }), `centered`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "right"
+  }), `$12`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "tbody"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `zebra stripes`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "center"
+  }), `are neat`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": "right"
+  }), `$1`)))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("table", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("thead", {
+    parentName: "table"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "thead"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `Markdown`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `Less`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("th", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `Pretty`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tbody", {
+    parentName: "table"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "tbody"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "td"
+  }, `Still`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("inlineCode", {
+    parentName: "td"
+  }, `renders`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("strong", {
+    parentName: "td"
+  }, `nicely`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("tr", {
+    parentName: "tbody"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `1`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `2`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("td", _extends({
+    parentName: "tr"
+  }, {
+    "align": null
+  }), `3`)))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "blockquotes"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "blockquotes"
+  }, `Blockquotes`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-no-highlight"
+  }), `> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("blockquote", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", {
+    parentName: "blockquote"
+  }, `Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Quote break.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("blockquote", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", {
+    parentName: "blockquote"
+  }, `This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `put`), ` `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("strong", {
+    parentName: "p"
+  }, `Markdown`), ` into a blockquote. `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "html"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "inline-html"
+  }, `Inline HTML`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `You can also use raw HTML in your Markdown, and it'll mostly work pretty well. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-no-highlight"
+  }), `<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("dl", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("dt", null, "Definition list"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("dd", null, "Is something people use sometimes."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("dt", null, "Markdown in HTML"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("dd", null, "Does *not* work **very** well. Use HTML ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", null, "tags"), ".")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "hr"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "horizontal-rule"
+  }, `Horizontal Rule`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {}), `Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Three or more...`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("hr", null), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Hyphens`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("hr", null), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Asterisks`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("hr", null), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Underscores`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "lines"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "line-breaks"
+  }, `Line Breaks`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `My basic recommendation for learning how line breaks work is to experiment and discover -- hit `, `<`, `Enter`, `>`, ` once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Here are some things to try out:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {}), `Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Here's a line for us to start with.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `This line is separated from the one above by two newlines, so it will be a `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `separate paragraph`), `.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `This line is also begins a separate paragraph, but...`, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("br", {
+    parentName: "p"
+  }), `
+`, `This line is only separated by a single newline, so it's a separate line in the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `same paragraph`), `.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `(Technical note: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `Markdown Here`), ` uses GFM line breaks, so there's no need to use MD's two-space line breaks.)`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
+    name: "videos"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "youtube-videos"
+  }, `YouTube Videos`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `They can't be added directly but you can add an image with a link to the video like this:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-no-highlight"
+  }), `<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Or, in pure Markdown, but losing the image sizing and border:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-no-highlight"
+  }), `[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Referencing a bug by #bugID in your git commit links it to the slip. For example #1. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("hr", null), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `License: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "https://creativecommons.org/licenses/by/3.0/"
+  }), `CC-BY`)));
+}
+
+if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDXContent) && Object.isExtensible(MDXContent)) {
+  Object.defineProperty(MDXContent, '__filemeta', {
+    configurable: true,
+    value: {
+      name: "MDXContent",
+      filename: "packages/linux/cheatsheets/markdown.mdx"
+    }
+  });
+}
+
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
 /***/ "../packages/linux/index.mdx":
 /*!***********************************!*\
   !*** ../packages/linux/index.mdx ***!
@@ -76452,21 +76785,31 @@ nano`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
     "id": "branch"
   }, `branch`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `To create and checkout a new branch `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `git checkout -b new_branch_name
+  }, {
+    "className": "language-sh"
+  }), `git checkout -b new_branch_name
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
     "id": "stash"
   }, `stash`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
     "id": "merge"
   }, `merge`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `To merge from another branch`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `git merge another_branch_name
+  }, {
+    "className": "language-sh"
+  }), `git merge another_branch_name
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
     "id": "resolve-conflicts"
   }, `resolve conflicts`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
     "id": "take-code-back-in-time-reset"
   }, `Take code back in time (reset)`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
     "id": "project-folders-organizing"
-  }, `Project folders organizing`));
+  }, `Project folders organizing`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "markdown"
+  }, `Markdown`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "cheatsheets/markdown"
+  }), `Cheatsheet`)));
 }
 
 if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDXContent) && Object.isExtensible(MDXContent)) {
@@ -77126,24 +77469,34 @@ function MDXContent(_ref) {
     "id": "required-software"
   }, `Required software`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Chromium`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `sudo apt install chromium-browser
+  }, {
+    "className": "language-sh"
+  }), `sudo apt install chromium-browser
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Node and npm`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+  }, {
+    "className": "language-sh"
+  }), `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 export NVM_DIR="$([ -z "\${XDG_CONFIG_HOME-}" ] && printf %s "\${HOME}/.nvm" || printf %s "\${XDG_CONFIG_HOME}/nvm")" [ -s "$NVM_DIR/nvm.sh" ] && \\. "$NVM_DIR/nvm.sh" # This loads nvm
 nvm install 8
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Keepass`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `sudo apt install keepassx
+  }, {
+    "className": "language-sh"
+  }), `sudo apt install keepassx
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `VsCode
 The repository and key can also be installed manually with the following script:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  }, {
+    "className": "language-sh"
+  }), `curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Then update the package cache and install the package using:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `sudo apt-get install apt-transport-https
+  }, {
+    "className": "language-sh"
+  }), `sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install code
 `)));
@@ -77976,7 +78329,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 const{hot}=__webpack_require__(/*! react-hot-loader/root */ "../node_modules/react-hot-loader/root.js");// prefer default export if available
-const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-md":hot(preferDefault(__webpack_require__(/*! ../Readme.md */ "../Readme.md"))),"component---packages-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/index.mdx */ "../packages/index.mdx"))),"component---packages-linux-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/linux/index.mdx */ "../packages/linux/index.mdx"))),"component---packages-teams-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/teams/index.mdx */ "../packages/teams/index.mdx"))),"component---packages-web-app-dev-env-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/dev-env.mdx */ "../packages/web-app/dev-env.mdx"))),"component---packages-web-app-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/index.mdx */ "../packages/web-app/index.mdx"))),"component---packages-linux-install-cubic-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/install/cubic.md */ "../packages/linux/install/cubic.md"))),"component---packages-linux-install-mkusb-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/install/mkusb.md */ "../packages/linux/install/mkusb.md"))),"component---packages-web-app-javascript-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/javascript/index.mdx */ "../packages/web-app/javascript/index.mdx"))),"component---packages-web-app-mongodb-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/mongodb/index.mdx */ "../packages/web-app/mongodb/index.mdx"))),"component---packages-linux-tutorials-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/tutorials.md */ "../packages/linux/tutorials.md"))),"component---src-pages-404-js":hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")))};
+const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-md":hot(preferDefault(__webpack_require__(/*! ../Readme.md */ "../Readme.md"))),"component---packages-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/index.mdx */ "../packages/index.mdx"))),"component---packages-linux-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/linux/index.mdx */ "../packages/linux/index.mdx"))),"component---packages-teams-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/teams/index.mdx */ "../packages/teams/index.mdx"))),"component---packages-web-app-dev-env-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/dev-env.mdx */ "../packages/web-app/dev-env.mdx"))),"component---packages-linux-install-cubic-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/install/cubic.md */ "../packages/linux/install/cubic.md"))),"component---packages-linux-install-mkusb-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/install/mkusb.md */ "../packages/linux/install/mkusb.md"))),"component---packages-web-app-javascript-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/javascript/index.mdx */ "../packages/web-app/javascript/index.mdx"))),"component---packages-web-app-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/index.mdx */ "../packages/web-app/index.mdx"))),"component---packages-web-app-mongodb-index-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/web-app/mongodb/index.mdx */ "../packages/web-app/mongodb/index.mdx"))),"component---packages-linux-tutorials-md":hot(preferDefault(__webpack_require__(/*! ../packages/linux/tutorials.md */ "../packages/linux/tutorials.md"))),"component---packages-linux-cheatsheets-markdown-mdx":hot(preferDefault(__webpack_require__(/*! ../packages/linux/cheatsheets/markdown.mdx */ "../packages/linux/cheatsheets/markdown.mdx"))),"component---src-pages-404-js":hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")))};
 
 /***/ }),
 
@@ -77987,7 +78340,7 @@ const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-m
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"doczDb\":{\"id\":\"ace00e2b-9c46-5e24-a19a-5ed242ca9c64\",\"db\":\"{\\\"config\\\":{\\\"title\\\":\\\"BeDeve\\\",\\\"description\\\":\\\"My awesome app using docz\\\",\\\"menu\\\":[],\\\"repository\\\":null,\\\"native\\\":false,\\\"themeConfig\\\":{},\\\"separator\\\":\\\"-\\\",\\\"dest\\\":\\\"docs\\\"},\\\"entries\\\":[{\\\"key\\\":\\\"Readme.md\\\",\\\"value\\\":{\\\"name\\\":\\\"0.1 Get Started\\\",\\\"route\\\":\\\"readme\\\",\\\"id\\\":\\\"1e290ac8433d555bce009b162cb869d0\\\",\\\"filepath\\\":\\\"Readme.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/Readme.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"readme\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"fullstack-development-monorepo\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Fullstack development monorepo\\\"},{\\\"slug\\\":\\\"install\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Install\\\"},{\\\"slug\\\":\\\"run-docs\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Run docs\\\"}]}},{\\\"key\\\":\\\"packages/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"1. Home\\\",\\\"route\\\":\\\"/\\\",\\\"id\\\":\\\"732f964373345b368311ed20e344ea31\\\",\\\"filepath\\\":\\\"packages/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}},{\\\"key\\\":\\\"packages/linux/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1 Linux Administration\\\",\\\"route\\\":\\\"linux\\\",\\\"id\\\":\\\"6b51b073e1a6672d2223f41a94db68ee\\\",\\\"filepath\\\":\\\"packages/linux/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"run-linux-through-a-usb-stick\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Run linux through a usb stick\\\"},{\\\"slug\\\":\\\"create-a-custom-image\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Create a custom image\\\"},{\\\"slug\\\":\\\"make-a-pestistent-linux-usb-stick\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Make a pestistent linux usb stick\\\"},{\\\"slug\\\":\\\"change-boot-order-in-bios\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Change boot order in BIOS\\\"},{\\\"slug\\\":\\\"basic-commands\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic commands\\\"},{\\\"slug\\\":\\\"filesystem\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Filesystem\\\"},{\\\"slug\\\":\\\"list-directory-contents\\\",\\\"depth\\\":4,\\\"value\\\":\\\"List directory contents\\\"},{\\\"slug\\\":\\\"change-directory\\\",\\\"depth\\\":4,\\\"value\\\":\\\"Change directory\\\"},{\\\"slug\\\":\\\"git-version-control\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Git version control\\\"},{\\\"slug\\\":\\\"install\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Install\\\"},{\\\"slug\\\":\\\"config\\\",\\\"depth\\\":3,\\\"value\\\":\\\"config\\\"},{\\\"slug\\\":\\\"initialize\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Initialize\\\"},{\\\"slug\\\":\\\"add-files-to-repository\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Add files to repository\\\"},{\\\"slug\\\":\\\"diff\\\",\\\"depth\\\":3,\\\"value\\\":\\\"diff\\\"},{\\\"slug\\\":\\\"commit\\\",\\\"depth\\\":3,\\\"value\\\":\\\"commit\\\"},{\\\"slug\\\":\\\"log\\\",\\\"depth\\\":3,\\\"value\\\":\\\"log\\\"},{\\\"slug\\\":\\\"ignore\\\",\\\"depth\\\":3,\\\"value\\\":\\\"ignore\\\"},{\\\"slug\\\":\\\"create-repo-on-github\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Create repo on github\\\"},{\\\"slug\\\":\\\"add-ssh-key\\\",\\\"depth\\\":3,\\\"value\\\":\\\"add ssh key\\\"},{\\\"slug\\\":\\\"add-remote\\\",\\\"depth\\\":3,\\\"value\\\":\\\"add remote\\\"},{\\\"slug\\\":\\\"push\\\",\\\"depth\\\":3,\\\"value\\\":\\\"push\\\"},{\\\"slug\\\":\\\"branch\\\",\\\"depth\\\":3,\\\"value\\\":\\\"branch\\\"},{\\\"slug\\\":\\\"stash\\\",\\\"depth\\\":3,\\\"value\\\":\\\"stash\\\"},{\\\"slug\\\":\\\"merge\\\",\\\"depth\\\":3,\\\"value\\\":\\\"merge\\\"},{\\\"slug\\\":\\\"resolve-conflicts\\\",\\\"depth\\\":3,\\\"value\\\":\\\"resolve conflicts\\\"},{\\\"slug\\\":\\\"take-code-back-in-time-reset\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Take code back in time (reset)\\\"},{\\\"slug\\\":\\\"project-folders-organizing\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Project folders organizing\\\"}]}},{\\\"key\\\":\\\"packages/linux/tutorials.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.2 Tutorials\\\",\\\"route\\\":\\\"linux/tutorials\\\",\\\"id\\\":\\\"a020da1f35ea65182c9067d54791b24a\\\",\\\"filepath\\\":\\\"packages/linux/tutorials.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/tutorials.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-tutorials\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"mkusb\\\",\\\"depth\\\":2,\\\"value\\\":\\\"mkusb\\\"},{\\\"slug\\\":\\\"how-to-make-a-persistent-ubuntu-usb-drive-on-ubuntu\\\",\\\"depth\\\":3,\\\"value\\\":\\\"How to Make a Persistent Ubuntu USB Drive on Ubuntu\\\"},{\\\"slug\\\":\\\"cubic\\\",\\\"depth\\\":2,\\\"value\\\":\\\"cubic\\\"},{\\\"slug\\\":\\\"installation\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Installation\\\"},{\\\"slug\\\":\\\"usage\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Usage\\\"}]}},{\\\"key\\\":\\\"packages/teams/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"3.1 Team working\\\",\\\"route\\\":\\\"teams\\\",\\\"id\\\":\\\"28663b3ce1fef5fba02d0caa8d84dfcd\\\",\\\"filepath\\\":\\\"packages/teams/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/teams/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-teams-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"documentation\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Documentation\\\"},{\\\"slug\\\":\\\"markdown\\\",\\\"depth\\\":3,\\\"value\\\":\\\"markdown\\\"},{\\\"slug\\\":\\\"scheduling\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Scheduling\\\"},{\\\"slug\\\":\\\"milestones\\\",\\\"depth\\\":3,\\\"value\\\":\\\"milestones\\\"},{\\\"slug\\\":\\\"time-calculation\\\",\\\"depth\\\":3,\\\"value\\\":\\\"time calculation\\\"},{\\\"slug\\\":\\\"distributing-workload\\\",\\\"depth\\\":3,\\\"value\\\":\\\"distributing workload\\\"},{\\\"slug\\\":\\\"sharing\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Sharing\\\"},{\\\"slug\\\":\\\"github-issues\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Github issues\\\"},{\\\"slug\\\":\\\"slack\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Slack\\\"},{\\\"slug\\\":\\\"reviewing-code\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Reviewing code\\\"},{\\\"slug\\\":\\\"remote-communication\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Remote communication\\\"},{\\\"slug\\\":\\\"notifications\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Notifications\\\"},{\\\"slug\\\":\\\"screencasting\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Screencasting\\\"},{\\\"slug\\\":\\\"kazam\\\",\\\"depth\\\":4,\\\"value\\\":\\\"Kazam\\\"}]}},{\\\"key\\\":\\\"packages/web-app/dev-env.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.2 Developer Environment setup\\\",\\\"route\\\":\\\"web-app/dev-env-setup\\\",\\\"id\\\":\\\"ccc278f06d474316cbfb08d28d42868a\\\",\\\"filepath\\\":\\\"packages/web-app/dev-env.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/dev-env.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-dev-env\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"required-software\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Required software\\\"}]}},{\\\"key\\\":\\\"packages/web-app/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.1 Web app architecture\\\",\\\"route\\\":\\\"web-app\\\",\\\"id\\\":\\\"1e20bbfa43883657bffa4024c822063c\\\",\\\"filepath\\\":\\\"packages/web-app/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"web-app-parts\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Web app parts\\\"},{\\\"slug\\\":\\\"backend\\\",\\\"depth\\\":3,\\\"value\\\":\\\"backend\\\"},{\\\"slug\\\":\\\"models\\\",\\\"depth\\\":4,\\\"value\\\":\\\"models\\\"},{\\\"slug\\\":\\\"queries\\\",\\\"depth\\\":4,\\\"value\\\":\\\"queries\\\"},{\\\"slug\\\":\\\"mutations\\\",\\\"depth\\\":4,\\\"value\\\":\\\"mutations\\\"},{\\\"slug\\\":\\\"validations\\\",\\\"depth\\\":4,\\\"value\\\":\\\"validations\\\"},{\\\"slug\\\":\\\"api-routes\\\",\\\"depth\\\":4,\\\"value\\\":\\\"api routes\\\"},{\\\"slug\\\":\\\"frontend\\\",\\\"depth\\\":3,\\\"value\\\":\\\"frontend\\\"},{\\\"slug\\\":\\\"api-client\\\",\\\"depth\\\":4,\\\"value\\\":\\\"api client\\\"},{\\\"slug\\\":\\\"components\\\",\\\"depth\\\":4,\\\"value\\\":\\\"components\\\"},{\\\"slug\\\":\\\"pages\\\",\\\"depth\\\":4,\\\"value\\\":\\\"pages\\\"},{\\\"slug\\\":\\\"custom-functionality\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Custom functionality\\\"},{\\\"slug\\\":\\\"authentication\\\",\\\"depth\\\":3,\\\"value\\\":\\\"authentication\\\"},{\\\"slug\\\":\\\"authorization\\\",\\\"depth\\\":3,\\\"value\\\":\\\"authorization\\\"},{\\\"slug\\\":\\\"layout\\\",\\\"depth\\\":3,\\\"value\\\":\\\"layout\\\"},{\\\"slug\\\":\\\"styling\\\",\\\"depth\\\":3,\\\"value\\\":\\\"styling\\\"},{\\\"slug\\\":\\\"ssr\\\",\\\"depth\\\":3,\\\"value\\\":\\\"ssr\\\"},{\\\"slug\\\":\\\"testing\\\",\\\"depth\\\":3,\\\"value\\\":\\\"testing\\\"},{\\\"slug\\\":\\\"running-a-web-app\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Running a web-app\\\"},{\\\"slug\\\":\\\"development\\\",\\\"depth\\\":3,\\\"value\\\":\\\"development\\\"},{\\\"slug\\\":\\\"production\\\",\\\"depth\\\":3,\\\"value\\\":\\\"production\\\"}]}},{\\\"key\\\":\\\"packages/linux/install/cubic.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1.1 Install Cubic\\\",\\\"route\\\":\\\"linux/install/cubic\\\",\\\"id\\\":\\\"982d9172579d0ef76d781275aba62bb7\\\",\\\"filepath\\\":\\\"packages/linux/install/cubic.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/install/cubic.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-install-cubic\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"installation\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Installation\\\"},{\\\"slug\\\":\\\"usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Usage\\\"}]}},{\\\"key\\\":\\\"packages/linux/install/mkusb.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1.2 Install mkusb\\\",\\\"route\\\":\\\"linux/install/mkusb\\\",\\\"id\\\":\\\"e4989a03ca9216aa820711be7b84eaf2\\\",\\\"filepath\\\":\\\"packages/linux/install/mkusb.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/install/mkusb.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-install-mkusb\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"how-to-make-a-persistent-ubuntu-usb-drive-on-ubuntu\\\",\\\"depth\\\":2,\\\"value\\\":\\\"How to Make a Persistent Ubuntu USB Drive on Ubuntu\\\"}]}},{\\\"key\\\":\\\"packages/web-app/javascript/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.3 Javascript\\\",\\\"id\\\":\\\"306ad00b599e3a0b27293bb1708d216f\\\",\\\"filepath\\\":\\\"packages/web-app/javascript/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/javascript/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-javascript-index\\\",\\\"route\\\":\\\"/packages-web-app-javascript-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}},{\\\"key\\\":\\\"packages/web-app/mongodb/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.4 Mongodb\\\",\\\"id\\\":\\\"e3d63db45d4150a75722e473ee655db0\\\",\\\"filepath\\\":\\\"packages/web-app/mongodb/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/mongodb/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-mongodb-index\\\",\\\"route\\\":\\\"/packages-web-app-mongodb-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}}],\\\"props\\\":[]}\"}}}");
+module.exports = JSON.parse("{\"data\":{\"doczDb\":{\"id\":\"ace00e2b-9c46-5e24-a19a-5ed242ca9c64\",\"db\":\"{\\\"config\\\":{\\\"title\\\":\\\"BeDeve\\\",\\\"description\\\":\\\"My awesome app using docz\\\",\\\"menu\\\":[],\\\"repository\\\":null,\\\"native\\\":false,\\\"themeConfig\\\":{},\\\"separator\\\":\\\"-\\\",\\\"dest\\\":\\\"docs\\\"},\\\"entries\\\":[{\\\"key\\\":\\\"Readme.md\\\",\\\"value\\\":{\\\"name\\\":\\\"0.1 Get Started\\\",\\\"route\\\":\\\"readme\\\",\\\"id\\\":\\\"1e290ac8433d555bce009b162cb869d0\\\",\\\"filepath\\\":\\\"Readme.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/Readme.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"readme\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"fullstack-development-monorepo\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Fullstack development monorepo\\\"},{\\\"slug\\\":\\\"install\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Install\\\"},{\\\"slug\\\":\\\"run-docs\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Run docs\\\"}]}},{\\\"key\\\":\\\"packages/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"1. Home\\\",\\\"route\\\":\\\"/\\\",\\\"id\\\":\\\"732f964373345b368311ed20e344ea31\\\",\\\"filepath\\\":\\\"packages/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}},{\\\"key\\\":\\\"packages/linux/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1 Linux Administration\\\",\\\"route\\\":\\\"linux\\\",\\\"id\\\":\\\"6b51b073e1a6672d2223f41a94db68ee\\\",\\\"filepath\\\":\\\"packages/linux/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"run-linux-through-a-usb-stick\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Run linux through a usb stick\\\"},{\\\"slug\\\":\\\"create-a-custom-image\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Create a custom image\\\"},{\\\"slug\\\":\\\"make-a-pestistent-linux-usb-stick\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Make a pestistent linux usb stick\\\"},{\\\"slug\\\":\\\"change-boot-order-in-bios\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Change boot order in BIOS\\\"},{\\\"slug\\\":\\\"basic-commands\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic commands\\\"},{\\\"slug\\\":\\\"filesystem\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Filesystem\\\"},{\\\"slug\\\":\\\"list-directory-contents\\\",\\\"depth\\\":4,\\\"value\\\":\\\"List directory contents\\\"},{\\\"slug\\\":\\\"change-directory\\\",\\\"depth\\\":4,\\\"value\\\":\\\"Change directory\\\"},{\\\"slug\\\":\\\"git-version-control\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Git version control\\\"},{\\\"slug\\\":\\\"install\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Install\\\"},{\\\"slug\\\":\\\"config\\\",\\\"depth\\\":3,\\\"value\\\":\\\"config\\\"},{\\\"slug\\\":\\\"initialize\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Initialize\\\"},{\\\"slug\\\":\\\"add-files-to-repository\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Add files to repository\\\"},{\\\"slug\\\":\\\"diff\\\",\\\"depth\\\":3,\\\"value\\\":\\\"diff\\\"},{\\\"slug\\\":\\\"commit\\\",\\\"depth\\\":3,\\\"value\\\":\\\"commit\\\"},{\\\"slug\\\":\\\"log\\\",\\\"depth\\\":3,\\\"value\\\":\\\"log\\\"},{\\\"slug\\\":\\\"ignore\\\",\\\"depth\\\":3,\\\"value\\\":\\\"ignore\\\"},{\\\"slug\\\":\\\"create-repo-on-github\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Create repo on github\\\"},{\\\"slug\\\":\\\"add-ssh-key\\\",\\\"depth\\\":3,\\\"value\\\":\\\"add ssh key\\\"},{\\\"slug\\\":\\\"add-remote\\\",\\\"depth\\\":3,\\\"value\\\":\\\"add remote\\\"},{\\\"slug\\\":\\\"push\\\",\\\"depth\\\":3,\\\"value\\\":\\\"push\\\"},{\\\"slug\\\":\\\"branch\\\",\\\"depth\\\":3,\\\"value\\\":\\\"branch\\\"},{\\\"slug\\\":\\\"stash\\\",\\\"depth\\\":3,\\\"value\\\":\\\"stash\\\"},{\\\"slug\\\":\\\"merge\\\",\\\"depth\\\":3,\\\"value\\\":\\\"merge\\\"},{\\\"slug\\\":\\\"resolve-conflicts\\\",\\\"depth\\\":3,\\\"value\\\":\\\"resolve conflicts\\\"},{\\\"slug\\\":\\\"take-code-back-in-time-reset\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Take code back in time (reset)\\\"},{\\\"slug\\\":\\\"project-folders-organizing\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Project folders organizing\\\"},{\\\"slug\\\":\\\"markdown\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Markdown\\\"}]}},{\\\"key\\\":\\\"packages/linux/tutorials.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.2 Tutorials\\\",\\\"route\\\":\\\"linux/tutorials\\\",\\\"id\\\":\\\"a020da1f35ea65182c9067d54791b24a\\\",\\\"filepath\\\":\\\"packages/linux/tutorials.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/tutorials.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-tutorials\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"mkusb\\\",\\\"depth\\\":2,\\\"value\\\":\\\"mkusb\\\"},{\\\"slug\\\":\\\"how-to-make-a-persistent-ubuntu-usb-drive-on-ubuntu\\\",\\\"depth\\\":3,\\\"value\\\":\\\"How to Make a Persistent Ubuntu USB Drive on Ubuntu\\\"},{\\\"slug\\\":\\\"cubic\\\",\\\"depth\\\":2,\\\"value\\\":\\\"cubic\\\"},{\\\"slug\\\":\\\"installation\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Installation\\\"},{\\\"slug\\\":\\\"usage\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Usage\\\"}]}},{\\\"key\\\":\\\"packages/teams/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"3.1 Team working\\\",\\\"route\\\":\\\"teams\\\",\\\"id\\\":\\\"28663b3ce1fef5fba02d0caa8d84dfcd\\\",\\\"filepath\\\":\\\"packages/teams/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/teams/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-teams-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"documentation\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Documentation\\\"},{\\\"slug\\\":\\\"markdown\\\",\\\"depth\\\":3,\\\"value\\\":\\\"markdown\\\"},{\\\"slug\\\":\\\"scheduling\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Scheduling\\\"},{\\\"slug\\\":\\\"milestones\\\",\\\"depth\\\":3,\\\"value\\\":\\\"milestones\\\"},{\\\"slug\\\":\\\"time-calculation\\\",\\\"depth\\\":3,\\\"value\\\":\\\"time calculation\\\"},{\\\"slug\\\":\\\"distributing-workload\\\",\\\"depth\\\":3,\\\"value\\\":\\\"distributing workload\\\"},{\\\"slug\\\":\\\"sharing\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Sharing\\\"},{\\\"slug\\\":\\\"github-issues\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Github issues\\\"},{\\\"slug\\\":\\\"slack\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Slack\\\"},{\\\"slug\\\":\\\"reviewing-code\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Reviewing code\\\"},{\\\"slug\\\":\\\"remote-communication\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Remote communication\\\"},{\\\"slug\\\":\\\"notifications\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Notifications\\\"},{\\\"slug\\\":\\\"screencasting\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Screencasting\\\"},{\\\"slug\\\":\\\"kazam\\\",\\\"depth\\\":4,\\\"value\\\":\\\"Kazam\\\"}]}},{\\\"key\\\":\\\"packages/web-app/dev-env.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.2 Developer Environment setup\\\",\\\"route\\\":\\\"web-app/dev-env-setup\\\",\\\"id\\\":\\\"ccc278f06d474316cbfb08d28d42868a\\\",\\\"filepath\\\":\\\"packages/web-app/dev-env.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/dev-env.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-dev-env\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"required-software\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Required software\\\"}]}},{\\\"key\\\":\\\"packages/web-app/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.1 Web app architecture\\\",\\\"route\\\":\\\"web-app\\\",\\\"id\\\":\\\"1e20bbfa43883657bffa4024c822063c\\\",\\\"filepath\\\":\\\"packages/web-app/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"web-app-parts\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Web app parts\\\"},{\\\"slug\\\":\\\"backend\\\",\\\"depth\\\":3,\\\"value\\\":\\\"backend\\\"},{\\\"slug\\\":\\\"models\\\",\\\"depth\\\":4,\\\"value\\\":\\\"models\\\"},{\\\"slug\\\":\\\"queries\\\",\\\"depth\\\":4,\\\"value\\\":\\\"queries\\\"},{\\\"slug\\\":\\\"mutations\\\",\\\"depth\\\":4,\\\"value\\\":\\\"mutations\\\"},{\\\"slug\\\":\\\"validations\\\",\\\"depth\\\":4,\\\"value\\\":\\\"validations\\\"},{\\\"slug\\\":\\\"api-routes\\\",\\\"depth\\\":4,\\\"value\\\":\\\"api routes\\\"},{\\\"slug\\\":\\\"frontend\\\",\\\"depth\\\":3,\\\"value\\\":\\\"frontend\\\"},{\\\"slug\\\":\\\"api-client\\\",\\\"depth\\\":4,\\\"value\\\":\\\"api client\\\"},{\\\"slug\\\":\\\"components\\\",\\\"depth\\\":4,\\\"value\\\":\\\"components\\\"},{\\\"slug\\\":\\\"pages\\\",\\\"depth\\\":4,\\\"value\\\":\\\"pages\\\"},{\\\"slug\\\":\\\"custom-functionality\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Custom functionality\\\"},{\\\"slug\\\":\\\"authentication\\\",\\\"depth\\\":3,\\\"value\\\":\\\"authentication\\\"},{\\\"slug\\\":\\\"authorization\\\",\\\"depth\\\":3,\\\"value\\\":\\\"authorization\\\"},{\\\"slug\\\":\\\"layout\\\",\\\"depth\\\":3,\\\"value\\\":\\\"layout\\\"},{\\\"slug\\\":\\\"styling\\\",\\\"depth\\\":3,\\\"value\\\":\\\"styling\\\"},{\\\"slug\\\":\\\"ssr\\\",\\\"depth\\\":3,\\\"value\\\":\\\"ssr\\\"},{\\\"slug\\\":\\\"testing\\\",\\\"depth\\\":3,\\\"value\\\":\\\"testing\\\"},{\\\"slug\\\":\\\"running-a-web-app\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Running a web-app\\\"},{\\\"slug\\\":\\\"development\\\",\\\"depth\\\":3,\\\"value\\\":\\\"development\\\"},{\\\"slug\\\":\\\"production\\\",\\\"depth\\\":3,\\\"value\\\":\\\"production\\\"}]}},{\\\"key\\\":\\\"packages/linux/cheatsheets/markdown.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Markdown Cheatsheet\\\",\\\"route\\\":\\\"cheatsheets/markdown\\\",\\\"id\\\":\\\"01d7464a50101a93e08299608afc9e84\\\",\\\"filepath\\\":\\\"packages/linux/cheatsheets/markdown.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/cheatsheets/markdown.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-cheatsheets-markdown\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"table-of-contents\\\",\\\"depth\\\":5,\\\"value\\\":\\\"Table of Contents\\\"},{\\\"slug\\\":\\\"headers\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Headers\\\"},{\\\"slug\\\":\\\"h1\\\",\\\"depth\\\":1,\\\"value\\\":\\\"H1\\\"},{\\\"slug\\\":\\\"h2\\\",\\\"depth\\\":2,\\\"value\\\":\\\"H2\\\"},{\\\"slug\\\":\\\"h3\\\",\\\"depth\\\":3,\\\"value\\\":\\\"H3\\\"},{\\\"slug\\\":\\\"h4\\\",\\\"depth\\\":4,\\\"value\\\":\\\"H4\\\"},{\\\"slug\\\":\\\"h5\\\",\\\"depth\\\":5,\\\"value\\\":\\\"H5\\\"},{\\\"slug\\\":\\\"h6\\\",\\\"depth\\\":6,\\\"value\\\":\\\"H6\\\"},{\\\"slug\\\":\\\"alt-h1\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Alt-H1\\\"},{\\\"slug\\\":\\\"alt-h2\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Alt-H2\\\"},{\\\"slug\\\":\\\"emphasis\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Emphasis\\\"},{\\\"slug\\\":\\\"lists\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Lists\\\"},{\\\"slug\\\":\\\"links\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Links\\\"},{\\\"slug\\\":\\\"images\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Images\\\"},{\\\"slug\\\":\\\"code-and-syntax-highlighting\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Code and Syntax Highlighting\\\"},{\\\"slug\\\":\\\"tables\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Tables\\\"},{\\\"slug\\\":\\\"blockquotes\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Blockquotes\\\"},{\\\"slug\\\":\\\"inline-html\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Inline HTML\\\"},{\\\"slug\\\":\\\"horizontal-rule\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Horizontal Rule\\\"},{\\\"slug\\\":\\\"line-breaks\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Line Breaks\\\"},{\\\"slug\\\":\\\"youtube-videos\\\",\\\"depth\\\":2,\\\"value\\\":\\\"YouTube Videos\\\"}]}},{\\\"key\\\":\\\"packages/linux/install/cubic.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1.1 Install Cubic\\\",\\\"route\\\":\\\"linux/install/cubic\\\",\\\"id\\\":\\\"982d9172579d0ef76d781275aba62bb7\\\",\\\"filepath\\\":\\\"packages/linux/install/cubic.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/install/cubic.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-install-cubic\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"installation\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Installation\\\"},{\\\"slug\\\":\\\"usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Usage\\\"}]}},{\\\"key\\\":\\\"packages/linux/install/mkusb.md\\\",\\\"value\\\":{\\\"name\\\":\\\"1.1.2 Install mkusb\\\",\\\"route\\\":\\\"linux/install/mkusb\\\",\\\"id\\\":\\\"e4989a03ca9216aa820711be7b84eaf2\\\",\\\"filepath\\\":\\\"packages/linux/install/mkusb.md\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/linux/install/mkusb.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-linux-install-mkusb\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"how-to-make-a-persistent-ubuntu-usb-drive-on-ubuntu\\\",\\\"depth\\\":2,\\\"value\\\":\\\"How to Make a Persistent Ubuntu USB Drive on Ubuntu\\\"}]}},{\\\"key\\\":\\\"packages/web-app/javascript/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.3 Javascript\\\",\\\"id\\\":\\\"306ad00b599e3a0b27293bb1708d216f\\\",\\\"filepath\\\":\\\"packages/web-app/javascript/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/javascript/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-javascript-index\\\",\\\"route\\\":\\\"/packages-web-app-javascript-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}},{\\\"key\\\":\\\"packages/web-app/mongodb/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"2.4 Mongodb\\\",\\\"id\\\":\\\"e3d63db45d4150a75722e473ee655db0\\\",\\\"filepath\\\":\\\"packages/web-app/mongodb/index.mdx\\\",\\\"fullpath\\\":\\\"/home/vasilis/BeDeve/fullstack-development/packages/web-app/mongodb/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"packages-web-app-mongodb-index\\\",\\\"route\\\":\\\"/packages-web-app-mongodb-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[]}}],\\\"props\\\":[]}\"}}}");
 
 /***/ }),
 
