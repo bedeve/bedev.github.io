@@ -76406,8 +76406,9 @@ alert(s);
 print s
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
+  }, {
+    "className": "language-sh"
+  }), `sudo apt install something
 `)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", {
     name: "tables"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
