@@ -76591,7 +76591,9 @@ This line is part of the same quote.`)), Object(_mdx_js_react__WEBPACK_IMPORTED_
     "id": "horizontal-rule"
   }, `Horizontal Rule`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `Three or more...
+  }, {
+    "className": "language-no-highlight"
+  }), `Three or more...
 
 ---
 
@@ -76610,7 +76612,9 @@ Underscores
     "id": "line-breaks"
   }, `Line Breaks`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `My basic recommendation for learning how line breaks work is to experiment and discover -- hit `, `<`, `Enter`, `>`, ` once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Here are some things to try out:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
-  }, {}), `Here's a line for us to start with.
+  }, {
+    "className": "language-no-highlight"
+  }), `Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
