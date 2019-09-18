@@ -76392,7 +76392,7 @@ function MDXContent(_ref) {
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", {
     lang: "no-highlight"
-  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", null, "```javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` ``` No language indicated, so no syntax highlighting. But let's throw in a <b>tag</b>. ```")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", null, "```javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` ```sh sudo apt install something ```")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
     parentName: "pre"
   }, {
     "className": "language-javascript"
